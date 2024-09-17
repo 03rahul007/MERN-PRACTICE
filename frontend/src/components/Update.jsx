@@ -12,7 +12,7 @@ const Update = () => {
 
   const showSingleData = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/${id}`, {
+      const response = await fetch(`https://mern-practice-7jgq.onrender.com/${id}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
