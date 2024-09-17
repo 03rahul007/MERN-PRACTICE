@@ -14,7 +14,7 @@ const Signup = () => {
 
     try {
       const response =
-      await fetch(`http://localhost:3000/`
+      await fetch(`https://mern-practice-7jgq.onrender.com/`
       // await fetch(`${window.location.origin}`
       , {
         method: "POST",
