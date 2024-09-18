@@ -39,7 +39,7 @@ const Update = () => {
   const handleEdit = async (event) => {
     event.preventDefault();
 
-      const response = await fetch(`http://localhost:3000/${id}`, {
+      const response = await fetch(`https://mern-practice-7jgq.onrender.com/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
